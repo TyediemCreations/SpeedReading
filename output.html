@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<h1>Read-a-majig</h1>
+
+<div id="speed_info">
+	<span id="speed_controls">
+		<button id="increase_speed" onclick="tbox.increaseSpeed()"> &#9195 </button>
+		<button id="decrease_speed" onclick="tbox.decreaseSpeed()"> &#9196 </button>
+	</span>
+	<span id="speed_output">
+		&nbsp W.P.M.: <text id="speed">000</text>
+	</span>
+</div>
+
+<div id="read_output">
+	<text id="prev_word" style="font-size: 44pt"></text>
+	&nbsp;<text id="text_output" style="font-size: 44pt">Output goes here</text>
+	&nbsp;<text id="next_word" style="font-size: 44pt"></text>
+</div>
+	
+<div id="controls">
+	<button id="prev_paragraph" onclick="tbox.prevParagraph()"> |< </button>
+	<button id="prev_sentence" onclick="tbox.previous()"> < </button>
+	<button id="pause_button" onclick="tbox.pause()"> &#9655 </button>
+	<button id="next_sentence" onclick="tbox.next()"> > </button>
+	<button id="next_paragraph" onclick="tbox.nextParagraph()"> >| </button>
+</div>
+
+<script src="reading.js"></script>
+
+</body>
+</html>

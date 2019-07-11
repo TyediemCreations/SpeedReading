@@ -1,0 +1,181 @@
+
+/*
+#wpm_input{
+	
+}
+#read_input{
+	width:600px;
+	display:inline-block;
+}
+#text_box_input{
+	padding:19px;
+}
+*/
+/**/
+.label{
+	width: 10%;
+	float: left;
+	text-align: right;
+	padding:10px 0px;
+}
+.input{
+	width: 80%;
+	float: left;
+	margin-left: 10px;
+	display:inline-block;
+	padding:10px 0px;
+}
+/**/
+#full_text{
+	width:100%;
+	display:inline-block;
+}
+
+#speed_info{
+	/*vertical-align:middle;*/
+	/*display:inline-block;*/
+	display:flex;
+	vertical-align:middle;
+	text-align:center;
+	line-height:50px;
+	min-width:1000px;
+}
+#speed_controls button{
+	/*display:block;*/
+	display:block;
+}
+#speed_output{
+	/*width:100px;
+	height:100px;
+	margin: auto auto;*/
+}
+
+#read_output{
+	/*
+	text-align:center;
+	
+	
+	*/
+	/*
+	width: 100%;
+	display:table;
+	text-align:center;
+	*/
+	width:100%;
+	padding:15px;
+	text-align:center;
+	position:relative;
+}
+#text_output{
+	/*
+	text-align:center;
+	*/
+	/*
+	display:table-cell;
+	vertical-align:middle;
+	*/
+	/*
+	width:100px;
+	margin: 0 auto;
+	*/
+}
+#prev_word, #next_word{
+	color:#D0D0D0;
+}
+#prev_word{
+	/*
+	float:left;
+	*/
+	/*position:absolute;*/
+	
+	position:absolute;
+	transform: translate(-101%,0);
+	
+	
+}
+#next_word{
+	/*
+	float:right;
+	*/
+	position:absolute;
+	
+}
+
+#controls{
+	text-align:center;
+	
+	margin-top:10px;
+}
+
+button{
+	color: black;
+	text-align: center;
+	/*vertical-align: middle;
+	display: table-cell;*/
+	line-height:20px;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: "Arial";
+	font-weight:bold;
+	margin: 0px 0px;
+	
+	padding: 0px 5px;
+	
+	border:2px solid;
+	border-top-color: white;
+	border-left-color: white;
+	border-bottom-color:gray;
+	border-right-color: gray;
+	
+	background-color: #E0E0E0;
+	/*
+	padding: 0px 5px;
+	
+	display: inline-block;
+	box-sizing:border-box;
+	vertical-align: top;
+	resize: none;
+	
+	color: black;
+	text-align: center;
+	line-height:20px;
+	text-decoration: none;
+	font-size: 11px;
+	//font-weight: bold;//
+	font-family: "Arial";
+	margin: 0px 0px;
+	margin-bottom: 2px;
+	
+	border:2px solid;
+	border-top-color: white;
+	border-left-color: white;
+	border-bottom-color:gray;
+	border-right-color: gray;
+	
+	background-color: #E0E0E0;
+	*/
+}
+button:active:enabled{
+	background-color: #D0D0D0;
+	border-top-color: gray;
+	border-left-color: gray;
+	border-bottom-color: white;
+	border-right-color: white;
+	transform: translate(2px,2px);
+}
+
+button:disabled{
+	background-color: #F0F0F0;
+	color: gray;
+	border-right-color: #D0D0D0;
+	border-bottom-color: #D0D0D0;
+}
+
+#read_input label, #read_input textarea{
+	display:inline-block;
+	vertical-align: top;
+}
+
+#pause_button{
+	width:50px;
+}

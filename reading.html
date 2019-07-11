@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<h1>Read-a-majig</h1>
+
+<span id="full">
+<span id="inner">
+	<div id="view"></div>
+	<div id="grid"></div>
+</span>
+</span>
+
+<div id="read_input">
+	<div id="wpm_input">
+		<span class="label"><label>W.P.M.: </label></span>
+		<span class="input"><input id="wpm"></input></span>
+	</div>
+	
+	
+	<div id="text_box_input">
+		<span class="label"><label>Text: </label></span>
+		<span class="input"><textarea id="text_box" rows="4" cols="50"></textarea></span>
+	</div>
+</div>
+
+<div id="start_button" class = "label">
+	<button id="start" onclick="input.start()">Start</button>
+	<br>
+</div>
+
+<br>
+<br>
+<div id="full_text" class="full_text"></div>
+<!--
+<br>
+<br>
+
+<div id="speed_controls">
+	W.P.M.: <text id="speed">000</text>
+	<button id="decrease_speed" onclick="tbox.decreaseSpeed()"> << </button>
+	<button id="increase_speed" onclick="tbox.increaseSpeed()"> >> </button>
+</div>
+
+<div id="read_output">
+	<text id="prev_word" style="font-size: 44pt"></text>
+	&nbsp;<text id="text_output" style="font-size: 44pt">Output goes here</text>
+	&nbsp;<text id="next_word" style="font-size: 44pt"></text>
+</div>
+	
+<div id="controls">
+	<button id="prev_paragraph" onclick="tbox.prevParagraph()"> |< </button>
+	<button id="prev_sentence" onclick="tbox.previous()"> < </button>
+	<button id="pause_button" onclick="tbox.pause()"> || </button>
+	<button id="next_sentence" onclick="tbox.next()"> > </button>
+	<button id="next_paragraph" onclick="tbox.nextParagraph()"> >| </button>
+</div>
+-->
+<script src="input.js"></script>
+
+</body>
+</html>
